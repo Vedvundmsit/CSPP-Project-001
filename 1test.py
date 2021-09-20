@@ -1,12 +1,5 @@
-first = True
-second = False
+def addTip(cost, percentToTip):
+      return cost + cost * percentToTip
 
-
-if first == True:
-    if second == True:
-        print("both true!")
-    else:
-        print("only first is true")
-else:
-    print("first not true")
-
+total = addTip(20.00, 0.17)
+print(total)
